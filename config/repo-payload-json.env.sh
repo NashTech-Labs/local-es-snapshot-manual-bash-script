@@ -1,5 +1,5 @@
 {
-    "type": "s3",
+    "type": "fs",
     "settings": {
         "location": "${LOCAL_PATH}"
     }
