@@ -27,8 +27,6 @@ then
 fi
 
 #Creating the snapshot
-snapshot_name=snapshot-$(date +"%d%m%Y")
-
 
 ##Checking if snapshot exist
 status_code=$(curl -s -o /dev/null -w "%{http_code}" $es_url/_snapshot/$repository_name/$snapshot_name)

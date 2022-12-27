@@ -1,4 +1,4 @@
-
+export snapshot_name="snapshot-2612"
 export repository_name="snapshot"
 export indices="index-1,index-2"
 export partial="true"

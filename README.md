@@ -9,6 +9,7 @@ Make changes to the ENV values only in config/es.env.sh
 | ENV name | Description |
 | - | - |
 | repository_name | Name of the repository which exist or will be created |
+| snapshot_name | Name of the snapshot to be created |
 | indices | Indices whose snapshot is to be created (eg. index1,index2 OR index-*) |
 | partial | If aprtial snapshot is allowed(true or false) |
 | include_global_state | If global cluster state is to be included (true or false) |
